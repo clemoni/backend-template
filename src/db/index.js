@@ -1,1 +1,1 @@
-export { db } from './db';
+export { getFakeUsers } from "./getFakeUsers";

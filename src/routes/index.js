@@ -1,1 +1,3 @@
-export const routes = [];
+import { getFakeUsersRoute } from "./getFakeUsersRoute";
+
+export const routes = [getFakeUsersRoute];

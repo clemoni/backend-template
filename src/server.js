@@ -1,5 +1,7 @@
 import express from "express";
-import colors from "colors";
+require("colors");
+require("dotenv").config();
+
 import { routes } from "./routes";
 
 const PORT = 8081;
